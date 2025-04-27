@@ -1,0 +1,37 @@
+.card {
+  width: 282px;
+  height: 361px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+}
+
+.card__image {
+  width: 282px;
+  height: 282px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card__name {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 100%;
+  margin: 25px 20px 25px 20px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  align-items: space-between;
+  max-width: calc(100% - 55px);
+}
+
+.card__icon {
+  width: 21px;
+  height: 18px;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}

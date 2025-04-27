@@ -1,0 +1,56 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin: 40px auto 51px auto;
+  width: 880px;
+  height: 120px;
+}
+
+.profile__avatar {
+  border-radius: 50%;
+  max-height: 100%;
+  width: 120px;
+  height: 120px;
+  padding-right: 30px;
+}
+
+.profile__info {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 48px 22px;
+  grid-template-columns: auto 10%;
+  grid-template-areas:
+    "name edit"
+    "tag tag";
+}
+
+.profile__info-name {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  word-spacing: 0%;
+  grid-area: name;
+}
+
+.profile__info-tag {
+  margin: 0;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  grid-area: tag;
+}
+
+.profile__info-button {
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+
+.profile__button {
+  width: 150px;
+  height: 50px;
+  margin: auto;
+}
