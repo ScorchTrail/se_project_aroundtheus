@@ -15,8 +15,6 @@
 }
 
 .profile__info {
-  width: 100%;
-  margin: auto;
   display: grid;
   grid-template-rows: 48px 22px;
   grid-template-columns: auto 10%;
@@ -26,7 +24,7 @@
 }
 
 .profile__info-name {
-  margin: 0px;
+  margin: auto 0;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 42px;
@@ -52,5 +50,5 @@
 .profile__button {
   width: 150px;
   height: 50px;
-  margin: auto;
+  margin: auto 0 auto 165px;
 }
